@@ -1,0 +1,8 @@
+body{font-family:Arial;background:#ffffcc;margin:20px}
+header{background:#ccc;padding:10px;border:2px solid black}
+nav a{margin-right:10px}
+.card{border:1px solid black;padding:10px;margin:10px 0}
+.out{border:1px dashed gray;padding:5px;margin-top:5px;white-space:pre-wrap}
+.arr span{border:1px solid black;margin:2px;padding:2px;display:inline-block}
+.drop{display:none;border:1px solid black;padding:10px;width:300px}
+.drop.show{display:block}

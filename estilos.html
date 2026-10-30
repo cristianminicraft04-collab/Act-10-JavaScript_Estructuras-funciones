@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>6. Menú desplegable con formulario</title><link rel="stylesheet" href="style.css"></head><body>
+<header><h1>6. Menú desplegable con formulario</h1><nav>
+<a href="index.html">Inicio</a><a href="voto.html">1. Votación</a><a href="suma.html">2. Suma</a><a href="condicionales.html">3. If-else/Switch</a><a href="ciclos.html">4. While/For</a><a href="arreglos.html">5. Arreglos</a><a href="estilos.html">6. Menú/Form</a>
+</nav></header><main>
+<div class="card"><h2>Acceso</h2>
+<div class="menu"><button id="toggle" data-accion="toggleMenu" aria-expanded="false">☰ Iniciar sesión</button>
+<div class="drop" id="drop">
+<label for="u">Usuario</label><input id="u"><label for="p">Contraseña</label><input id="p" type="password">
+<button id="enviar" data-accion="ingresar">Ingresar</button><div class="out" id="msg"></div></div></div></div>
+</main><script src="script.js"></script>
+</body></html>

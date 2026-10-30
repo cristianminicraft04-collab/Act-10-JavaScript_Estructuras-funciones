@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>1. Votación por sección</title><link rel="stylesheet" href="style.css"></head><body>
+<header><h1>1. Votación por sección</h1><nav>
+<a href="index.html">Inicio</a><a href="voto.html">1. Votación</a><a href="suma.html">2. Suma</a><a href="condicionales.html">3. If-else/Switch</a><a href="ciclos.html">4. While/For</a><a href="arreglos.html">5. Arreglos</a><a href="estilos.html">6. Menú/Form</a>
+</nav></header><main>
+<div class="card"><h2>Emite tu voto</h2>
+<label for="nombre">Nombre</label><input id="nombre" placeholder="Tu nombre">
+<label for="seccion">¿De qué sección de la ciudad eres?</label>
+<select id="seccion"><option value="">Selecciona…</option><option value="norte">Norte</option><option value="sur">Sur</option><option value="centro">Centro</option></select>
+<label for="voto">Tu voto</label>
+<select id="voto"><option value="">Selecciona…</option><option>Candidato A</option><option>Candidato B</option><option>Candidato C</option></select>
+<button id="btn" data-accion="votar">Votar</button><div class="out" id="out"></div></div>
+<div class="card"><h3>Conteo por sección</h3><div class="out" id="conteo"></div></div>
+</main><script src="script.js"></script>
+</body></html>
